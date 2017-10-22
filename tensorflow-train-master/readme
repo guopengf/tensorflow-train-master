@@ -1,0 +1,14 @@
+softmax_train.py :用于softmax模型的训练
+softmax_recognize.py :用于对测图片进行预测
+trainsave_test.py :用于将训练好的模型存储
+model.ckpt :训练好的模型生成的相关文件 
+image_pridect.py :用flask模块生成的网页程序
+
+使用方法：
+在terminal中进入到mnist文件夹中
+先运行creat_image_table.py创建一个表
+使用python image_pridect.py语句运行flask，进入http://127.0.0.1:5000/
+进入页面后，浏览文件夹，从test_num文件夹中选择图片进行预测
+查看预测结果
+
+PS：此文件为demo，非正式最终版本，功能并不齐全
